@@ -1,0 +1,34 @@
+<!-- Config file for the game -->
+
+<config>
+  <app>
+    <title>Game Development Testbed</title>
+    <organization>UPC</organization>
+  </app>
+	
+  <renderer>
+    <vsync value="false"/>
+	<cam x="474" y="0" />
+  </renderer>
+
+  <window>
+    <resolution width="1024" height="568" scale="1"/>
+    <fullscreen value="false"/>
+    <borderless value="false"/>
+    <resizable value="false"/>
+    <fullscreen_window value="false"/>
+  </window>
+
+  <file_system>
+    <path>data.zip</path>
+  </file_system>
+
+  <map>
+    <folder>maps/</folder>
+  </map>
+
+  <text>
+    <font value="fonts/consola.ttf" r="255" g="255" b="255" text="THIS IS MY AWESOME CONSOLE: FUCK LOG"/>
+  </text>
+
+</config>
